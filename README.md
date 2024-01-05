@@ -198,6 +198,6 @@ new byte code
              40 RETURN_VALUE
 ```
 
-as can be seen, calling `schedule()` (20~24) is injected before the cleanup step (26) of calling `print(name, i)` (12~
-26), which is not possible in real python, but it does work fine. for loop (8) is automatically fixed since it has
+as can be seen, calling `schedule()` (20 to 24) is injected before the cleanup step (26) of calling `print(name, i)` (12
+to 26), which is not possible in real python, but it does work fine. for loop (8) is automatically fixed since it has
 jump-like argument
