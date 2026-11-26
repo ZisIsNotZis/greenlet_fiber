@@ -1,5 +1,7 @@
 # greenlet_fiber: fiber with greenlet
 
+**项目状态 · 未完成（2026-11-26）**。在独立环境执行 README 协作调度的两个 fiber，均按顺序输出；README 对抢占/切换明确提示仍需严谨测试、可能导致解释器崩溃。 以协作路径为最低验收范围，明确不安全抢占的支持边界。
+
 ### Basic usage
 
 ```python
